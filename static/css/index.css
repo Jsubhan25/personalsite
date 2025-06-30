@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A nice, clean font */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 100vh;
+    text-align: left;
+    background: linear-gradient(135deg, #008ED0 0%, #001055 100%); /* A cool gradient */
+    color: white;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.name {
+    font-size: 3.5rem; /* Larger heading */
+    font-weight: 300; /* Lighter font weight */
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px; /* A bit of letter spacing */
+}
+
+.profession {
+    font-size: 2.0rem; /* Sub-heading size */
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.links {
+    font-size: 2.0rem; /* Sub-heading size */
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.infolink {
+    padding-right: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#first-link {
+    padding-left: 0px;
+}
+
+.footer-text {
+    width: 100%;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    text-align: center;
+}
